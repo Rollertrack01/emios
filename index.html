@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emios - Início</title>
+    <meta name="description" content="Emios - Transformando dados em soluções inteligentes. Tecnologia, análise de dados e educação digital.">
+    <meta name="keywords" content="tecnologia, dados, cursos, programação, consultoria">
+    <title>Emios - Soluções Inteligentes em Tecnologia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script defer src="script.js"></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container header-container">
-            <div class="logo">Emios</div>
+            <div class="logo">
+                <i class="fas fa-brain"></i> Emios
+            </div>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Home</a></li>
@@ -28,47 +33,222 @@
             </div>
         </div>
     </header>
+
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content container">
             <h1>Bem-vindo à Emios</h1>
             <p>Transformando dados em soluções inteligentes</p>
-            <a href="services.html" class="btn">Nossos Serviços</a>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn">Nossos Serviços</a>
+                <a href="contact.html" class="btn btn-secondary">Fale Conosco</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
-    <section class="services container">
+
+    <!-- Serviços -->
+    <section class="services container" id="servicos">
         <h2>O que oferecemos</h2>
+        <p class="section-subtitle">Soluções completas para impulsionar o seu negócio</p>
         <div class="service-cards">
             <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-database"></i>
+                </div>
                 <h3>Universo de Dados</h3>
-                <p>Análise, organização e estudo de dados para decisões estratégicas.</p>
+                <p>Análise, organização e estudo de dados para decisões estratégicas com base em inteligência de mercado.</p>
+                <a href="services.html" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
                 <h3>Tecnologia</h3>
-                <p>Internet, logística, cursos de programação, design e multimídia.</p>
+                <p>Internet, logística, desenvolvimento de software e soluções digitais personalizadas para sua empresa.</p>
+                <a href="services.html" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-users"></i>
+                </div>
                 <h3>Consultoria</h3>
-                <p>Orientação personalizada em soluções tecnológicas e empresariais.</p>
+                <p>Orientação personalizada em soluções tecnológicas e empresariais com foco em resultados.</p>
+                <a href="services.html" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
+
+    <!-- Estatísticas -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3 class="stat-number" data-target="150">0</h3>
+                    <p>Projetos Concluídos</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-smile"></i>
+                    <h3 class="stat-number" data-target="200">0</h3>
+                    <p>Clientes Satisfeitos</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3 class="stat-number" data-target="500">0</h3>
+                    <p>Alunos Formados</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-award"></i>
+                    <h3 class="stat-number" data-target="10">0</h3>
+                    <p>Anos de Experiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por que escolher a Emios -->
+    <section class="why-choose container">
+        <h2>Por que escolher a Emios?</h2>
+        <p class="section-subtitle">Comprometidos com a excelência e inovação</p>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-rocket"></i>
+                <h3>Inovação Constante</h3>
+                <p>Utilizamos as tecnologias mais recentes para entregar soluções de ponta.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-handshake"></i>
+                <h3>Parceria de Confiança</h3>
+                <p>Trabalhamos lado a lado com você para alcançar seus objetivos.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Resultados Comprovados</h3>
+                <p>Track record de sucesso com clientes em diversos setores.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-headset"></i>
+                <h3>Suporte Dedicado</h3>
+                <p>Equipe sempre disponível para atender suas necessidades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>O que nossos clientes dizem</h2>
+            <p class="section-subtitle">Histórias de sucesso dos nossos parceiros</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A Emios transformou completamente nossa gestão de dados. Resultados incríveis em poucos meses!"</p>
+                    <div class="testimonial-author">
+                        <strong>João Silva</strong>
+                        <span>CEO, TechCorp</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Os cursos são excelentes! Aprendi habilidades que estou aplicando diretamente no meu trabalho."</p>
+                    <div class="testimonial-author">
+                        <strong>Maria Santos</strong>
+                        <span>Desenvolvedora Web</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Consultoria de primeira qualidade. A equipe da Emios entende realmente as necessidades do negócio."</p>
+                    <div class="testimonial-author">
+                        <strong>Carlos Mendes</strong>
+                        <span>Diretor de TI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
     <section class="cta">
         <div class="container">
             <h2>Quer impulsionar seu negócio?</h2>
             <p>Entre em contacto com a Emios e transforme suas ideias em realidade.</p>
-            <a href="contact.html" class="btn btn-primary">Contacte-nos</a>
+            <a href="contact.html" class="btn btn-primary">Contacte-nos Agora</a>
         </div>
     </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container footer-container">
-            <p>&copy; 2025 Emios. Todos os direitos reservados.</p>
-            <p>Desenvolvido por Rollertrack</p>
-            <div class="socials">
-                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-          </div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-brain"></i> Emios</h3>
+                    <p>Transformando dados em soluções inteligentes desde 2015.</p>
+                    <div class="socials">
+                        <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Serviços</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +258 84 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@emios.co.mz</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Maputo, Moçambique</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Receba as últimas novidades e ofertas.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Emios. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <strong>Rollertrack</strong></p>
+            </div>
         </div>
     </footer>
+
+    <!-- Botão Scroll to Top -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </body>
 </html>
+
